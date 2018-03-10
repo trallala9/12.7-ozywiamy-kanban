@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column-container {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1000px;
+}
+
+.create-column {
+    margin-left: 480px;
+    border-bottom-color: orangered;
+    border-radius: 30px;
+
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+    padding-bottom: 25px
+}
+
+.ui-sortable {
+    min-height: 80px;
+}
+
+.btn-delete,
+.btn-delete-card {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 6px 8px;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.btn-delete-card {
+    top: 5px;
+    padding: 0 4px;
+    height: 25px;
+
+}
+
+.btn-edit {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    border-radius: 30px;
+    background-color: rgb(123, 196, 162);
+}
+
+
+/* BOARD */
+
+.board h1 {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/* COLUMN */
+
+.column {
+    order: 1;
+    min-width: 350px;
+    min-height: 50vh;
+    background-color: lightgrey;
+    margin-left: 15px;
+    list-style: none;
+    position: relative;
+}
+
+.column-add-card {
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 5px 8px 15px;
+    display: block;
+    color: rgb(123, 196, 162);
+}
+
+
+/* STYLE KARTY */
+
+.card {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-list {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+}
+
+.card-description {
+    margin: 2px 0;
+}
+
+.card-placeholder {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 2px solid lightgrey;
+
+}
